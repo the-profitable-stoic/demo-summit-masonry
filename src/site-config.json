@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Summit Masonry",
+    "phone": "555-mas-r91",
+    "category": "masonry",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  "design": {
+    "preset": {
+      "id": "masonry-mountain-bold",
+      "categoryGroup": "masonry",
+      "name": "Mountain Bold",
+      "recipeFile": "masonry/mountain-bold.astro",
+      "colors": {
+        "primary": "#78350F",
+        "primaryDark": "#54250b",
+        "primaryLight": "#ddcdc3",
+        "secondary": "#92400E",
+        "accent": "#B45309",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#78350F",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "masonry/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Philadelphia's Trusted Masonry Experts",
+      "heroSubline": "We build and restore the brick and stone foundations that define Philly. From historic row homes to modern builds, we handle what others won't.",
+      "aboutTitle": "Built on Philadelphia Pride",
+      "aboutText": [
+        "Summit Masonry started in 2012 with a pickup truck and a passion for preserving Philadelphia's architectural heritage. Twelve years later, we're still family-owned, just with 20+ masons who treat every tuckpointing job and foundation repair like it's their own home.",
+        "Philadelphia masonry isn't just about mortar - it's about understanding freeze-thaw cycles, matching 19th century brick blends, and working on tight rowhouse lots. We train our team in traditional techniques and modern solutions because these walls need to last another 100 years.",
+        "When we're not rebuilding brownstone stoops in Rittenhouse or repairing chimneys in Chestnut Hill, you'll find us sponsoring neighborhood preservation societies and teaching masonry workshops at the Community College of Philadelphia."
+      ],
+      "valueProps": [
+        {
+          "title": "Historic Material Specialists",
+          "description": "We source period-correct brick and stone to maintain your property's original character."
+        },
+        {
+          "title": "Freeze-Thaw Experts",
+          "description": "Our mortar mixes are engineered for Philadelphia's extreme temperature swings."
+        },
+        {
+          "title": "Tight Space Pros",
+          "description": "Alley access? Shared walls? We've handled every challenging rowhome scenario."
+        },
+        {
+          "title": "No Surprise Pricing",
+          "description": "Fixed-rate quotes with detailed scopes - what we promise is what you pay."
+        }
+      ],
+      "ctaHeadline": "Need masonry that stands up to Philly?",
+      "ctaSubline": "Call 555-MAS-R91 today for a free assessment. We'll show up on time, give you straight answers, and get it done right."
+    },
+    "services": [
+      {
+        "slug": "brick-repointing",
+        "name": "Brick Repointing",
+        "shortDescription": "Restore crumbling mortar joints with blends that match your home's original character.",
+        "description": "Philadelphia's freeze-thaw cycles destroy mortar joints faster than anywhere else. We don't just slap on modern mortar - our masons analyze your existing composition, then custom blend lime-based mixes that match the original color and flexibility.\n\nFor historic districts like Society Hill, we use hand tools to carefully rake out deteriorated mortar without damaging fragile bricks. Modern buildings get polymer-fortified mixes that resist salt damage from winter roads. Every job starts with a moisture assessment to address underlying issues before they become expensive repairs.",
+        "process": [
+          "Step 1: Diagnostic evaluation of mortar composition and wall stability",
+          "Step 2: Custom mortar mixing (color-matched if needed)",
+          "Step 3: Precision joint raking and cleaning",
+          "Step 4: Hand-applied repointing with period-appropriate techniques"
+        ],
+        "benefits": [
+          "Prevents water infiltration that leads to interior damage",
+          "Maintains structural integrity of older buildings",
+          "Preserves historic tax credits eligibility",
+          "Adds 20+ years to brick lifespan"
+        ],
+        "faq": [
+          {
+            "question": "How often should Philly rowhomes be repointed?",
+            "answer": "Most need work every 25-40 years, but south-facing walls exposed to road salt may need attention every 15 years. We'll tell you what your specific building requires."
+          },
+          {
+            "question": "Will repointing change my brick's appearance?",
+            "answer": "Not if done right. We take mortar samples to our lab for precise color matching, and use techniques that avoid smearing or staining the brick faces."
+          }
+        ]
+      },
+      {
+        "slug": "chimney-repair",
+        "name": "Chimney Repair",
+        "shortDescription": "Stop leaks and restore stability to Philadelphia's vulnerable chimneys.",
+        "description": "Nor'easters wreck havoc on Philadelphia chimneys - we see crumbling crowns, spalling brick, and deteriorated flue liners daily. Our repairs go beyond cosmetic fixes to address the root causes.\n\nFor Victorian twins in West Philly, we rebuild corbeled brick details using salvaged materials when possible. Modern fireplaces get stainless steel liners sized precisely for your heating appliance. Every repair includes flashing inspections (the #1 leak source) and waterproofing treatments that resist wind-driven rain.\n\nWe're one of few contractors certified to work on National Register properties, with experience maintaining chimneys at landmark buildings like the Union League.",
+        "process": [
+          "Step 1: Structural inspection with chimney camera",
+          "Step 2: Custom masonry repair plan",
+          "Step 3: Flashing/roof interface waterproofing",
+          "Step 4: Crown repair or replacement"
+        ],
+        "benefits": [
+          "Prevents costly water damage to interiors",
+          "Maintains proper venting for safety",
+          "Preserves historic architectural details",
+          "Meets Philadelphia building code requirements"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my chimney needs repair?",
+            "answer": "Look for mortar debris in your fireplace, white staining (efflorescence), or visible cracks. Any chimney over 20 years old should be inspected annually - salt air from the Delaware accelerates deterioration."
+          },
+          {
+            "question": "Can you match my intricate brick patterns?",
+            "answer": "We maintain an inventory of period bricks from Philadelphia demolitions, and custom tool replacement pieces when needed. Last year we perfectly replicated 1890s dogtooth patterns on a Powelton Village home."
+          }
+        ]
+      },
+      {
+        "slug": "foundation-repair",
+        "name": "Foundation Repair",
+        "shortDescription": "Stabilize settling rowhomes with minimally invasive techniques.",
+        "description": "Philadelphia's clay soil and century-old foundations are a bad combination. We specialize in solutions that don't require demolishing your historic basement - helical piers, carbon fiber straps, and precision grout injection.\n\nIn Fishtown and Northern Liberties, we see recurring issues with rubble stone foundations shifting under added rooftop decks. Our engineers design repairs that account for shared walls and tight lot lines. For newer construction, we address improper backfill compaction that leads to basement cracks after just 5-10 years.\n\nEvery job includes a drainage assessment - often the real culprit behind foundation movement. We partner with licensed waterproofers to create complete solutions, not temporary fixes.",
+        "process": [
+          "Step 1: Laser level assessment of settlement",
+          "Step 2: Engineer-approved repair plan",
+          "Step 3: Minimally invasive stabilization",
+          "Step 4: Drainage corrections as needed"
+        ],
+        "benefits": [
+          "Stops door/window misalignment issues",
+          "Prevents further structural damage",
+          "Preserves basement usable space",
+          "Addresses water issues at their source"
+        ],
+        "faq": [
+          {
+            "question": "How much do Philly rowhome foundation repairs typically cost?",
+            "answer": "Straightforward pier installations run $8,000-$15,000, while major reconstructions can reach $50,000+. We always explore the most cost-effective solution first - last month we stabilized a Manayunk home with grout injection for under $6,000."
+          },
+          {
+            "question": "Will repairs disturb my finished basement?",
+            "answer": "Rarely. Most helical pier installations require only 12\" access holes, which we core drill through flooring with minimal mess. Any disturbed areas are restored to original condition."
+          }
+        ]
+      },
+      {
+        "slug": "brownstone-restoration",
+        "name": "Brownstone Restoration",
+        "shortDescription": "Bring back the grandeur of Philadelphia's iconic brownstones.",
+        "description": "Original brownstone façades suffer terribly from acid rain and improper repairs. Our restoration process starts with gentle cleaning using low-pressure steam and natural poultices - no sandblasting that erodes delicate surfaces.\n\nFor Rittenhouse Square and Fitler Square homes, we replicate ornamental details like quoins and window hoods using traditional stone carving techniques. Damaged sections get repaired with salvaged brownstone (we maintain a stockpile from demolished buildings) or with modern stone epoxies when appropriate.\n\nEvery project includes a customized maintenance plan - these soft sandstone surfaces need specific sealants and washing schedules. We've restored over 120 brownstones since 2015, including six on the historic register.",
+        "process": [
+          "Step 1: Material analysis and cleaning tests",
+          "Step 2: Structural assessment of stone integrity",
+          "Step 3: Artisan-level carving and repair",
+          "Step 4: Protective treatment application"
+        ],
+        "benefits": [
+          "Revives original architectural beauty",
+          "Addresses structural instability risks",
+          "Corrects previous improper repairs",
+          "Uses historically appropriate materials"
+        ],
+        "faq": [
+          {
+            "question": "Why not just replace damaged brownstone with modern materials?",
+            "answer": "Modern substitutes lack the warmth and workability of original stone. We exhaust every repair option first - our epoxy techniques can salvage seemingly hopeless sections while maintaining historic authenticity."
+          },
+          {
+            "question": "How often should brownstone be maintained?",
+            "answer": "Annual inspections catch small issues before they become major problems. Full cleaning and resealing is typically needed every 5-8 years, more often for south-facing walls exposed to road spray."
+          }
+        ]
+      },
+      {
+        "slug": "paver-installation",
+        "name": "Paver Installation",
+        "shortDescription": "Durable brick and stone patios built for Philadelphia weather.",
+        "description": "Philadelphia backyards need pavers that can handle everything from summer barbecues to winter snowplows. We install with 6\" gravel bases and edge restraints that prevent the heaving and spreading you see around town.\n\nIn Northern Liberties and Queen Village, we specialize in small-space solutions - herringbone patterns that visually expand tight lots, permeable designs that reduce stormwater fees. For Chestnut Hill estates, we craft bluestone terraces with hidden drainage systems that handle heavy rain.\n\nEvery installation includes a custom winter prep guide - proper de-icer selection saves thousands in replacement costs. We source materials from local suppliers like Philadelphia Brick Works to ensure colors complement your home's existing masonry.",
+        "process": [
+          "Step 1: Site evaluation and drainage planning",
+          "Step 2: Custom design with 3D renderings",
+          "Step 3: Commercial-grade base installation",
+          "Step 4: Precision cutting and placement"
+        ],
+        "benefits": [
+          "Adds functional outdoor living space",
+          "Increases property value more than decks",
+          "Reduces muddy backyard problems",
+          "Low-maintenance compared to wood"
+        ],
+        "faq": [
+          {
+            "question": "How long do paver installations last in Philly?",
+            "answer": "Our installations average 25+ years with proper care. The key is the base - we compact 6\" of gravel, not the skimpy 2-3\" layers some contractors use that fail after a few freeze-thaw cycles."
+          },
+          {
+            "question": "Can pavers handle rooftop installations?",
+            "answer": "Absolutely - we've installed over 40 rooftop paver systems in Center City condos. These require specialized waterproofing and weight calculations that most masons don't understand. Our structural engineer signs off on every plan."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith K.",
+        "rating": 5,
+        "service": "Brownstone Restoration",
+        "text": "Summit saved our 1890s brownstone in Graduate Hospital after a bad contractor used Portland cement that was causing spalling. They sourced matching stone from a demolished building in Powelton Village and replicated our original carvings perfectly. Two years later, the façade still looks immaculate despite being on a busy street.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Foundation Repair",
+        "text": "Our Fishtown rowhome had a 3\" settlement crack running through the basement. Summit installed helical piers in one day without even needing to move our laundry machines. They pointed out how our downspouts were dumping water right at the foundation - fixed that too. No more sticking doors and the basement stayed dry all winter.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Eleanor W.",
+        "rating": 5,
+        "service": "Chimney Repair",
+        "text": "The team rebuilt our crumbling chimney in Chestnut Hill using salvaged brick that matched perfectly. They noticed our flashing was installed wrong 20 years ago - no wonder we had leaks! Finished the job by applying a clear water repellent that doesn't change the brick's appearance. Professional from start to finish.",
+        "date": "2024-11-07"
+      },
+      {
+        "name": "Darnell T.",
+        "rating": 5,
+        "service": "Paver Installation",
+        "text": "Our tiny Northern Liberties backyard is now the envy of the block thanks to Summit's paver work. They designed a pattern that makes the space feel bigger and installed a hidden drainage channel that keeps it from flooding. Even plowed the snow last winter without shifting a single brick.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Gina P.",
+        "rating": 5,
+        "service": "Brick Repointing",
+        "text": "After getting three ridiculous quotes to repoint our Society Hill row house, Summit gave us a fair price and did impeccable work. They matched the original mortar color exactly and cleaned every brick by hand. The project manager even gave us a tutorial on proper maintenance for historic brick.",
+        "date": "2024-08-03"
+      },
+      {
+        "name": "Marcus L.",
+        "rating": 5,
+        "service": "Chimney Repair",
+        "text": "Summit fixed our West Philly twin's chimney after a tree limb damaged the crown. They didn't just patch it - replaced several compromised bricks and installed a proper cricket to prevent future leaks. The crew showed up exactly when they said and left the roof cleaner than they found it.",
+        "date": "2024-06-29"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Philadelphia Masonry Contractors | Summit Masonry",
+        "description": "Specializing in historic brick, brownstone & foundation repairs. Serving Philadelphia with expert craftsmanship since 2012. Free assessments."
+      },
+      "about": {
+        "title": "About Our Philly Masonry Company",
+        "description": "Family-owned masonry business preserving Philadelphia's architectural heritage. Expert repointing, chimney repairs & foundation stabilization."
+      },
+      "services": {
+        "title": "Philadelphia Masonry Services",
+        "description": "Complete brick, stone & foundation solutions for Philly homes. Historic restoration experts with 800+ successful projects."
+      },
+      "contact": {
+        "title": "Contact Philly's Masonry Pros",
+        "description": "Schedule your free masonry assessment in Philadelphia. Call Summit Masonry today for honest advice and quality work."
+      },
+      "reviews": {
+        "title": "Philadelphia Masonry Reviews",
+        "description": "See why Philly homeowners trust Summit Masonry for historic brick repairs, chimney work and foundation stabilization."
+      },
+      "service-areas": {
+        "title": "Philadelphia Masonry Service Areas",
+        "description": "Serving Philadelphia and surrounding communities with expert masonry services. Local specialists in historic brick restoration."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Philadelphia",
+        "slug": "philadelphia-pa",
+        "state": "PA",
+        "content": "Summit Masonry is proud to serve Philadelphia, the heart of Pennsylvania and a city rich with historic architecture. From brickwork repairs on classic row houses to modern masonry installations for commercial properties, our team delivers top-quality craftsmanship. Whether you're in Center City or the surrounding neighborhoods, we understand the unique masonry needs of Philly's diverse buildings. Trust us to preserve and enhance the beauty of your property with durable, weather-resistant solutions.",
+        "localContext": "Philadelphia is known for its historic charm, featuring iconic brick rowhouses and landmarks like Independence Hall.",
+        "nearbyAreas": [
+          "Conshohocken",
+          "Bala Cynwyd",
+          "Glenside"
+        ]
+      },
+      {
+        "city": "Conshohocken",
+        "slug": "conshohocken-pa",
+        "state": "PA",
+        "content": "Serving Conshohocken, Summit Masonry provides expert masonry services for both residential and commercial properties. Whether you need a new stone patio, brick wall repairs, or a custom fireplace, our skilled masons deliver precision and durability. Conshohocken's mix of historic and modern architecture demands versatile masonry solutions, and we’re here to meet that need. Let us help you enhance your property’s curb appeal and structural integrity.",
+        "localContext": "Conshohocken blends suburban charm with easy access to Philadelphia, making it a sought-after location for homeowners and businesses.",
+        "nearbyAreas": [
+          "Plymouth Meeting",
+          "Norristown",
+          "Bryn Mawr"
+        ]
+      },
+      {
+        "city": "Bala Cynwyd",
+        "slug": "bala-cynwyd-pa",
+        "state": "PA",
+        "content": "Summit Masonry is your trusted masonry contractor in Bala Cynwyd, offering tailored solutions for stone, brick, and concrete projects. From elegant retaining walls to durable walkways, we combine aesthetics with functionality. Bala Cynwyd’s upscale homes and commercial properties deserve the highest level of craftsmanship, and our team delivers just that. Contact us for reliable, long-lasting masonry work that enhances your property’s value.",
+        "localContext": "Bala Cynwyd is a prestigious Main Line community known for its beautiful estates and tree-lined streets.",
+        "nearbyAreas": [
+          "Merion Station",
+          "Wynnewood",
+          "Narberth"
+        ]
+      },
+      {
+        "city": "Glenside",
+        "slug": "glenside-pa",
+        "state": "PA",
+        "content": "Glenside homeowners and businesses rely on Summit Masonry for expert brick, stone, and block work. Whether you're restoring a historic facade or building a new outdoor living space, our team provides meticulous craftsmanship. Glenside’s blend of historic and contemporary architecture requires versatile masonry expertise, and we’re up to the task. Let us help you create or restore masonry features that stand the test of time.",
+        "localContext": "Glenside is a quaint suburb with a mix of historic homes, vibrant arts, and a strong community feel.",
+        "nearbyAreas": [
+          "Jenkintown",
+          "Abington",
+          "Cheltenham"
+        ]
+      },
+      {
+        "city": "Norristown",
+        "slug": "norristown-pa",
+        "state": "PA",
+        "content": "Summit Masonry serves Norristown with top-tier masonry services, including repairs, installations, and custom designs. From brick sidewalk repairs to stone veneer upgrades, we ensure durability and aesthetic appeal. Norristown’s historic buildings and growing developments require skilled masons, and our team is equipped to handle any project. Trust us to enhance your property with high-quality, long-lasting masonry work.",
+        "localContext": "Norristown is a historic borough with a mix of industrial heritage and modern revitalization efforts.",
+        "nearbyAreas": [
+          "King of Prussia",
+          "Bridgeport",
+          "East Norriton"
+        ]
+      },
+      {
+        "city": "Jenkintown",
+        "slug": "jenkintown-pa",
+        "state": "PA",
+        "content": "In Jenkintown, Summit Masonry provides expert brickwork, stonework, and concrete services for residential and commercial clients. Whether you’re repairing a chimney or installing a new paver driveway, we prioritize quality and attention to detail. Jenkintown’s charming homes and bustling downtown area benefit from our reliable masonry solutions. Let us help you maintain or upgrade your property with craftsmanship you can trust.",
+        "localContext": "Jenkintown is a lively borough with a small-town feel, historic homes, and a thriving business district.",
+        "nearbyAreas": [
+          "Abington",
+          "Glenside",
+          "Cheltenham"
+        ]
+      },
+      {
+        "city": "King of Prussia",
+        "slug": "king-of-prussia-pa",
+        "state": "PA",
+        "content": "Summit Masonry delivers exceptional masonry services in King of Prussia, catering to both homes and commercial properties. From sleek modern facades to classic brickwork, our team handles it all with precision. King of Prussia’s upscale developments and retail hubs demand high-quality masonry, and we’re here to meet those needs. Trust us for durable, visually appealing solutions that elevate your property.",
+        "localContext": "King of Prussia is a bustling hub known for its shopping, dining, and corporate offices.",
+        "nearbyAreas": [
+          "Wayne",
+          "Radnor",
+          "Norristown"
+        ]
+      },
+      {
+        "city": "Narberth",
+        "slug": "narberth-pa",
+        "state": "PA",
+        "content": "Narberth residents and businesses turn to Summit Masonry for premium brick, stone, and concrete services. From elegant garden walls to sturdy foundations, our craftsmanship enhances both beauty and functionality. Narberth’s historic homes and walkable downtown deserve meticulous masonry care, and we deliver exactly that. Contact us for reliable, custom solutions tailored to your property.",
+        "localContext": "Narberth is a charming borough with a strong sense of community and picturesque streets.",
+        "nearbyAreas": [
+          "Merion Station",
+          "Bala Cynwyd",
+          "Wynnewood"
+        ]
+      },
+      {
+        "city": "Bryn Mawr",
+        "slug": "bryn-mawr-pa",
+        "state": "PA",
+        "content": "Summit Masonry serves Bryn Mawr with expert masonry solutions, from stone veneer installations to brick repairs. Our team understands the high standards of Bryn Mawr’s upscale homes and commercial properties. Whether you’re restoring a historic facade or building a new hardscape, we provide unmatched craftsmanship. Trust us to enhance your property with durable, elegant masonry work.",
+        "localContext": "Bryn Mawr is a prestigious Main Line community known for its grand estates and top-tier schools.",
+        "nearbyAreas": [
+          "Villanova",
+          "Radnor",
+          "Wayne"
+        ]
+      },
+      {
+        "city": "Cheltenham",
+        "slug": "cheltenham-pa",
+        "state": "PA",
+        "content": "In Cheltenham, Summit Masonry offers reliable brick, stone, and concrete services for homes and businesses. From repairing aging chimneys to constructing new retaining walls, we ensure quality and longevity. Cheltenham’s mix of historic and modern properties requires skilled masons, and our team is up to the challenge. Let us help you preserve or upgrade your property with expert masonry work.",
+        "localContext": "Cheltenham is a diverse township with historic homes, lush greenery, and a strong community vibe.",
+        "nearbyAreas": [
+          "Elkins Park",
+          "Jenkintown",
+          "Glenside"
+        ]
+      },
+      {
+        "city": "Radnor",
+        "slug": "radnor-pa",
+        "state": "PA",
+        "content": "Radnor homeowners and businesses trust Summit Masonry for superior brick, stone, and block work. Whether it’s a custom outdoor fireplace or a structural repair, our craftsmanship meets the highest standards. Radnor’s affluent neighborhoods and commercial properties demand precision, and we deliver just that. Contact us for masonry solutions that combine durability with timeless aesthetics.",
+        "localContext": "Radnor is an upscale Main Line community known for its spacious homes and top-rated schools.",
+        "nearbyAreas": [
+          "Bryn Mawr",
+          "Wayne",
+          "Villanova"
+        ]
+      },
+      {
+        "city": "Abington",
+        "slug": "abington-pa",
+        "state": "PA",
+        "content": "Summit Masonry provides expert masonry services in Abington, from brick repairs to new stone installations. Our team is skilled in handling both historic restorations and modern builds, ensuring your property looks its best. Abington’s tree-lined neighborhoods and commercial spaces benefit from our attention to detail and durable craftsmanship. Let us help you enhance your property with reliable masonry solutions.",
+        "localContext": "Abington is a family-friendly township with a mix of historic charm and suburban convenience.",
+        "nearbyAreas": [
+          "Jenkintown",
+          "Glenside",
+          "Cheltenham"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "brick-repointing": "/images/service-brick-repointing.webp",
+      "chimney-repair": "/images/service-chimney-repair.webp",
+      "foundation-repair": "/images/service-foundation-repair.webp",
+      "paver-installation": "/images/service-paver-installation.webp",
+      "brownstone-restoration": "/images/service-brownstone-restoration.webp"
+    },
+    "servicesResponsive": {
+      "brick-repointing": {
+        "src": "/images/service-brick-repointing.webp",
+        "srcset": "/images/service-brick-repointing-400w.webp 400w, /images/service-brick-repointing-800w.webp 800w, /images/service-brick-repointing-1200w.webp 1200w, /images/service-brick-repointing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "chimney-repair": {
+        "src": "/images/service-chimney-repair.webp",
+        "srcset": "/images/service-chimney-repair-400w.webp 400w, /images/service-chimney-repair-800w.webp 800w, /images/service-chimney-repair-1200w.webp 1200w, /images/service-chimney-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "foundation-repair": {
+        "src": "/images/service-foundation-repair.webp",
+        "srcset": "/images/service-foundation-repair-400w.webp 400w, /images/service-foundation-repair-800w.webp 800w, /images/service-foundation-repair-1200w.webp 1200w, /images/service-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "paver-installation": {
+        "src": "/images/service-paver-installation.webp",
+        "srcset": "/images/service-paver-installation-400w.webp 400w, /images/service-paver-installation-800w.webp 800w, /images/service-paver-installation-1200w.webp 1200w, /images/service-paver-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "brownstone-restoration": {
+        "src": "/images/service-brownstone-restoration.webp",
+        "srcset": "/images/service-brownstone-restoration-400w.webp 400w, /images/service-brownstone-restoration-800w.webp 800w, /images/service-brownstone-restoration-1200w.webp 1200w, /images/service-brownstone-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
